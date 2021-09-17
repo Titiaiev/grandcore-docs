@@ -1,0 +1,1 @@
+export default function genJsJsdoc() { return "I am gen-js-jsdoc" }

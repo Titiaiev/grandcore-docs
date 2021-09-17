@@ -1,0 +1,15 @@
+{
+    "name": "grandcore-docs",
+    "main": "manager/index.js",
+    "private": true,
+    "workspaces": [
+        "plugins/*",
+        "manager/"
+    ],
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "scripts": {
+        "start": "node manager/index.js"
+    }
+}
