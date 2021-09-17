@@ -10,8 +10,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "@grandcore-docs/gen-js-jsdoc": "^1.0.0",
-        "@grandcore-docs/fin-html": "^1.0.0"
+
 
     }
 }

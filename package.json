@@ -1,12 +1,11 @@
 {
     "name": "grandcore-docs",
-    "main": "manager/index.js",
+    "main": "start.js",
     "private": true,
-
     "devDependencies": {
         "lerna": "^4.0.0"
     },
     "scripts": {
-        "start": "node manager/index.js"
+        "start": "node start.js"
     }
 }

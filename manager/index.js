@@ -1,3 +1,3 @@
-import finHtml from "@grandcore-docs/fin-html";
+import finHtml from "fin-html";
 
 finHtml()
