@@ -1,6 +1,7 @@
 {
-    "name": "grandcore-docs",
+    "name": "@grandcore.org/docs",
     "main": "start.js",
+    "type": "module",
     "private": true,
     "devDependencies": {
         "lerna": "^4.0.0"
