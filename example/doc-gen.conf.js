@@ -37,4 +37,8 @@ module.exports = {
             })
         }
     ],
+    post-scripts:[
+    	'./site-gen.sh',
+    	'./tests.py'
+    ]
 }
