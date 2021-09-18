@@ -1,8 +1,9 @@
 {
-    "name": "@grandcore.org/docs_gen-js-jsdoc",
+    "name": "gen-js-jsdoc",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
