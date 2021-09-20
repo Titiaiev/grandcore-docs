@@ -26,12 +26,12 @@ jobs:
       - name: Setup Node.js # setup Node.js in the runner
         uses: actions/setup-node@v1
         with:
-          node-version: '14'
-      #- uses: actions/cache@v2
-       # path: ~/.npm
-        #key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-       # restore-keys: ${{ runner.os }}-node-
-      # Runs a single command using the runners shell
+          node-version: '12'
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
      
       - run: echo Start autodeploy
       - run: npm run build 
