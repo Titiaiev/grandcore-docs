@@ -34,5 +34,4 @@ jobs:
       # Runs a single command using the runners shell
      
       - run: echo Start autodeploy
-      - run: npm ci
       - run: npm run build 
