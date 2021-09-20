@@ -34,4 +34,5 @@ jobs:
           restore-keys: ${{ runner.os }}-node-
      
       - run: echo Start autodeploy
-      - run: npm run build 
+      - run: npm run start # чисто для теста работы
+      #- run: npm run build пока нет
