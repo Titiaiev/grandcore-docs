@@ -1,6 +1,7 @@
 {
   "packages": ["plugins/*", "main/"],
   "version": "0.0.0",
+  "name": "@grandcore/grandcore-docs",
   "command": {
     "run": {
       "npmClient": "npm"
