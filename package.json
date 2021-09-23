@@ -1,12 +1,6 @@
 {
-    "name": "docs-gen__grandcore.org",
-    "main": "start.js",
-    "type": "module",
-    "private": true,
-    "devDependencies": {
-        "lerna": "^4.0.0"
-    },
-    "scripts": {
-        "start": "node start.js"
-    }
+  "private": false,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }

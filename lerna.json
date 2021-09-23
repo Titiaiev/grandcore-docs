@@ -1,12 +1,9 @@
 {
-    "packages": [
-        "plugins/*",
-        "manager/"
-    ],
-    "version": "0.0.0",
-    "command": {
-        "run": {
-            "npmClient": "npm"
-        }
+  "packages": ["plugins/*", "main/"],
+  "version": "0.0.0",
+  "command": {
+    "run": {
+      "npmClient": "npm"
     }
+  }
 }
