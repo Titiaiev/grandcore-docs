@@ -1,3 +1,2 @@
-import finHtml from "fin-html";
-
-finHtml()
+export {Manager} from './manager.js';
+export {finMd} from './finMd.js';

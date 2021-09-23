@@ -6,6 +6,12 @@ import gen - js from grandcore - docs @gen - js - jsdoc
 module.exports = {
     v: 1,
     mode: 'standart',
+    default: {
+    	    finalizer: fin - mdx({
+                mode: 'default'
+            }),
+            otput: './dist/',
+    }
     rules: [{
             input: './about/'
             test: /\.jsx?$/,
@@ -17,7 +23,7 @@ module.exports = {
                 tags: 'components, default',
                 template: 'catalog'
             },
-            finalizer: fin - mdx({
+            finalizer: fin-html({
                 mode: 'default'
             })
         },
@@ -31,10 +37,7 @@ module.exports = {
             meta: {
                 tags: 'pages-general, faq',
                 template: 'info'
-            },
-            finalizer: fin - mdx({
-                mode: 'default'
-            })
+            }
         }
     ],
     post-scripts:[
