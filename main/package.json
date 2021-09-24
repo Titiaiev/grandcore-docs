@@ -1,6 +1,9 @@
 {
-  "name": "docs__grandcore.org",
-  "version": "0.0.1",
+  "name": "@grandcore.org/doc",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.0",
   "main": "index.js",
   "author": "grandcore.org",
   "license": "MIT"

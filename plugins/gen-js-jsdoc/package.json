@@ -1,5 +1,8 @@
 {
-  "name": "docs_gen-js-jsdoc__grandcore.org",
+  "name": "@grandcore.org/doc__gen-js-jsdoc",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "main": "index.js",
   "author": "grandcore.org",

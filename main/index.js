@@ -1,2 +1,2 @@
-export {Manager} from './manager.js';
-export {finMd} from './finMd.js';
+export { manager } from "./manager.js";
+export { finMd } from "./finMd.js";

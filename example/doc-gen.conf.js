@@ -1,47 +1,41 @@
-import gen - mdx fin - mdx from grandcore - gocs
-import gen - js from grandcore - docs @gen - js - jsdoc
+import { finMd } from "@grandcore.org/docs";
+import genJsCode from "@grandcore.org/docs__gen-js-doc";
 
-// Конфигурация документации
-
-module.exports = {
-    v: 1,
-    mode: 'standart',
+export default {
+  // версия конфигурации
+  v: 1,
+  // режим работы менеджера
+  mode: "default",
+  // правила генерации файлов
+  rules: {
+    // Конфигурация по умолчанию для всех правил
     default: {
-    	    finalizer: fin - mdx({
-                mode: 'default'
-            }),
-            otput: './dist/',
-    }
-    rules: [{
-            input: './about/'
-            test: /\.jsx?$/,
-            otput: './dist/about/',
-            generator: gen - js({
-                mode: 'default'
-            }),
-            meta: {
-                tags: 'components, default',
-                template: 'catalog'
-            },
-            finalizer: fin-html({
-                mode: 'default'
-            })
-        },
-        {
-            input: './.info/'
-            test: /\.md?$/,
-            otput: './dist/info/',
-            generator: gen - md({
-                mode: 'default'
-            }),
-            meta: {
-                tags: 'pages-general, faq',
-                template: 'info'
-            }
-        }
-    ],
-    post-scripts:[
-    	'./site-gen.sh',
-    	'./tests.py'
-    ]
-}
+      // Сборщик конечного файла
+      finalizer: finMd({
+        mode: "default",
+      }),
+      // папка для сгенерированных файлов
+      output: "./dist/",
+    },
+    // Пример конфигурации (перекрывает стандартные настройки)
+    components: {
+      // папка с файлами для генерации
+      input: "./about/",
+      // маска для файлов
+      test: /\.jsx?$/,
+      // папка для сгенерированных файлов
+      output: "./dist/components/",
+      // генератор документации для правилаfinHtml
+      generator: genJsCode({
+        mode: "TypeScript",
+      }),
+      // мета-данные для файлов документации
+      meta: {
+        tags: "components, default",
+        template: "catalog",
+      },
+    },
+  },
+  // внешние скрипты, которые запускаются после успешного завершения генерации.
+  scripts: ["./site-gen.sh", "./tests.py"],
+};

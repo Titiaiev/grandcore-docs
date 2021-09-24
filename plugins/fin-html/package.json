@@ -1,5 +1,8 @@
 {
-  "name": "docs_fin-html__grandcore.org",
+  "name": "@grandcore.org/doc__fin-html",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "main": "index.js",
   "author": "grandcore.org",

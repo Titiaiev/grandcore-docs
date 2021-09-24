@@ -1,1 +1,3 @@
-export default function genJsJsdoc() { return "I am gen-js-jsdoc" }
+export default function () {
+  return "I am gen-js-jsdoc";
+}

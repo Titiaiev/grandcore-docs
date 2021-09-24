@@ -1,3 +1,3 @@
 export default function () {
-  return "I am fin-html";
+  return "I am finMd";
 }
