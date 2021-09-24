@@ -9,10 +9,13 @@
 ## Установка
 
 **Основная библиотека**
+
 `npm i @grandcore.org/doc`
 
 **Плагин для генерации JSDoc**
+
 `npm i @grandcore.org/doc`
 
 **Плагин для финализации в виде HTML файлов**
+
 `npm i @grandcore.org/doc`
