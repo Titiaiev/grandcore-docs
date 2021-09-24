@@ -10,12 +10,12 @@
 
 **Основная библиотека**
 
-`npm i @grandcore.org/doc`
+`npm i @grandcore.org/docs`
 
 **Плагин для генерации JSDoc**
 
-`npm i @grandcore.org/doc__gen-js-jsdoc`
+`npm i @grandcore.org/docs__gen-js-jsdoc`
 
 **Плагин для финализации в виде HTML файлов**
 
-`npm i @grandcore.org/doc__fin-html`
+`npm i @grandcore.org/docs__fin-html`

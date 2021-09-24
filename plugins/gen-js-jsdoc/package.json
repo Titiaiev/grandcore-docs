@@ -1,5 +1,5 @@
 {
-  "name": "@grandcore.org/doc__gen-js-jsdoc",
+  "name": "@grandcore.org/docs__gen-js-jsdoc",
   "publishConfig": {
     "access": "public"
   },

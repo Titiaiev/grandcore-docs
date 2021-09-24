@@ -1,5 +1,5 @@
 {
-  "name": "@grandcore.org/doc",
+  "name": "@grandcore.org/docs",
   "publishConfig": {
     "access": "public"
   },
