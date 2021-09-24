@@ -14,8 +14,8 @@
 
 **Плагин для генерации JSDoc**
 
-`@grandcore.org/doc__gen-js-jsdoc`
+`npm i @grandcore.org/doc__gen-js-jsdoc`
 
 **Плагин для финализации в виде HTML файлов**
 
-`@grandcore.org/doc__fin-html`
+`npm i @grandcore.org/doc__fin-html`
