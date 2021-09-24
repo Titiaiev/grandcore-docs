@@ -1,2 +1,2 @@
-export { manager } from "./manager.js";
-export { finMd } from "./finMd.js";
+export { default as manager } from "./lib/manager.js";
+export { default as finMd } from "./lib/finMd.js";
