@@ -7,9 +7,6 @@
 .next/
 
 node_modules/
-<<<<<<< HEAD
 lerna-debug.log
 package-lock.json
-=======
 dist/
->>>>>>> eeb9ba10a8c068745d2a142a2ab9035600d3fefa
