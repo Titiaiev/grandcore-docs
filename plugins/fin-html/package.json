@@ -1,5 +1,6 @@
 {
   "name": "@grandcore.org/docs__fin-html",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },

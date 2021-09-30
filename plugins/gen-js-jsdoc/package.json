@@ -1,5 +1,6 @@
 {
   "name": "@grandcore.org/docs__gen-js-jsdoc",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
