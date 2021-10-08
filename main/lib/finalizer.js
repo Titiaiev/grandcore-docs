@@ -1,3 +1,3 @@
 export default function () {
-  return "I am manager";
+  return "I am finalizer";
 }
