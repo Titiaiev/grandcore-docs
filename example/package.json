@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@grandcore.org/docs": "0.0.1"
+    "@grandcore.org/docs": "0.0.2"
   },
   "type": "module"
 }
