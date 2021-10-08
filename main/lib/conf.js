@@ -11,7 +11,4 @@ if (process.argv[2] == true) {
 
 const conf = await import(modulePath);
 
-
-export default {
-  ...
-}
+export default conf;
