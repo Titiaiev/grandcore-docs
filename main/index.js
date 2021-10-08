@@ -1,2 +1,3 @@
-export { default as manager } from "./lib/manager.js";
-export { default as finMd } from "./lib/finMd.js";
+import conf from "/doc-gen.conf.js";
+
+console.log(conf);
