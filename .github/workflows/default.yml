@@ -21,12 +21,14 @@ jobs:
           echo "@grandcore:registry=https://registry.npmjs.org/" > .npmrc
           echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
-          npm whoami
+          
         env:
           NPM_TOKEN: ${{ secrets.NPMTOKEN }}
 
       - name: Publish
         #run: lerna publish --yes
-        run: lerna publish from-package --yes
+        run: 
+          npm whoami
+          lerna publish from-package --yes
         env:
           NPM_TOKEN: ${{ secrets.NPMTOKEN }}
